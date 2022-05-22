@@ -116,7 +116,7 @@ INFOM(){
 \t\t▀▀▀▀ ▀░░▀ ▀░▀▀ ░▀▀▀ ▀▀▀░
 ${RT}"
     echo -e "[${YW}GARUD${RT}] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (${BK}@R0X4R${RT})"
-    OT=$(echo -e "$(echo $DM | sed -e 's/\.[a-z]*$//')_$(date +"%Y_%M_%d-%H_%M_%S")")
+    OT=$(echo -e "$(echo $DM | sed -e 's/\.[a-z]*$//')_$(date +"%Y_%m_%d-%H_%M_%S")")
     mkdir -p $OT 2> /dev/null
     cd $OT
     echo -e ""
